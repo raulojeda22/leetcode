@@ -22,6 +22,8 @@ func binarySearch(haystack []int, needle int) bool {
 	return true
 }
 
+// Runtime: 102 ms, faster than 35.48% of Go online submissions for 3Sum.
+// Memory Usage: 7.7 MB, less than 47.35% of Go online submissions for 3Sum.
 func threeSum(nums []int) [][]int {
 	var posN []int
 	var negN []int
